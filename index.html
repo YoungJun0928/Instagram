@@ -2,6 +2,7 @@
     <head>
         <link href="style.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="script.js"></script>
     </head>
     <body>
         <script>
@@ -21,12 +22,11 @@
         
         <div id="profile">
             <div id="profile_pic">
-                <img src="image/profile.png"
-                class="circle_pic"/>
+                <img class="circle_pic" src="image/profile.png"/>
             </div>
             <div id="profile_info">
                 <div id="id">
-                    half_bottle
+                    <span>0_for_ever_0928</span>
                     <i class="fa-solid fa-gear"></i>
                 </div>
                 <button>프로필 편집</button>
@@ -34,12 +34,12 @@
         </div>
         <div>
             <p>
-                <strong>반병현 (Byunghyun Ban)</strong><br/>
-                작가
+                <strong id="userInfo">정영준</strong><br/>
+                <span id="summary">학생</span>
             </p>
-            <p>
+            <p id="profileDetail">
                 <a href="https://www.instagram.com/">
-                    instagram/kr
+                    instagram.com/
                 </a>
             </p>
         </div>
@@ -69,15 +69,15 @@
         <div id="stat_bar">
             <div class="stat">
                 게시물<br/>
-                133
+                6
             </div>
             <div class="stat">
                 팔로워<br/>
-                408
+                386
             </div>
             <div class="stat">
-                팔로우<br/>
-                189
+                팔로잉<br/>
+                265
             </div>
         </div>
         <div id="sub_icons">
